@@ -72,6 +72,20 @@
 }
 
 
+#calendar-divs {
+  margin: auto;
+  border: 1px solid grey;
+  width: 95vw;
+  height: 12vh;
+}
+
+#calendar-text {
+  color: white;
+  margin: auto;
+  vertical-align: middle;
+}
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
