@@ -32,6 +32,46 @@
 }
 
 
+.About{
+  margin: auto;
+  width: 70vw;
+  text-align: center;
+}
+
+#social-link-div{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.row{
+  display: flex;
+  color: white;
+}
+
+.column{
+  flex: 50%;
+}
+
+#concert-pic{
+  margin: auto;
+  width: 35vw;
+  border-radius: 15%;
+  border-radius: 10px solid white;
+}
+
+.social-icons{
+  margin: auto;
+  height: 5vh;
+  width: 5vw;
+}
+
+#spotify{
+  width: 70vw;
+  border-radius: 12px;
+}
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
