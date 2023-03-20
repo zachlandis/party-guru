@@ -85,6 +85,37 @@
   vertical-align: middle;
 }
 
+.event-page-div {
+  width: 95vw;
+  height: 85vh;
+  margin: auto;
+  background-image: linear-gradient(darkgrey, black);
+  text-align: center;
+}
+
+.event-page-text {
+  color: black;
+}
+
+.event-poster {
+  margin: auto;
+  width: 70vw;
+}
+
+#event-description{
+  color: white;
+  margin: auto;
+  width: 70vw;
+}
+
+#ticket-link {
+  color: orangered;
+}
+
+#lineup-div {
+  color: white;
+}
+
 
 
 @media (prefers-reduced-motion: no-preference) {

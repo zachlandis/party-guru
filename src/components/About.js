@@ -48,6 +48,7 @@ function About() {
                 </div>
             </div>
             <br/>
+            <title>Check us out on Spotify!</title>
             <iframe id="spotify" src="https://open.spotify.com/embed/playlist/5Ms8VrWAtbeauTBeFJK65W?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
             <br/>
             <br/>
