@@ -10,7 +10,7 @@ function EventForm({onAddEvent}) {
     const [ticketLink, setTicketLink] = useState("")
 
     function handleSubmit() {
-        fetch("http://localhost:3001/events", {
+        fetch("http://localhost:3000/events", {
             method: 'POST', 
             headers: {
                 "Content-Type": "application/json"

@@ -10,7 +10,7 @@ function EventPage() {
     const {eventName, eventDate, eventVenue, ticketLink, posterBanner, eventDescription} = eventPage
 
     useEffect(() => {
-        fetch(`  http://localhost:3000/events/${id}`)
+        fetch(`http://localhost:3000/events/${id}`)
             .then(r => r.json())
             .then(data => setEventPage(data))
     }, [id])
