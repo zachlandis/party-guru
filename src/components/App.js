@@ -6,6 +6,7 @@ import Home from './Home';
 import About from './About';
 import Events from './Events';
 import EventPage from './EventPage';
+import Footer from './Footer';
 
 
 
