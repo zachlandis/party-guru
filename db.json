@@ -3,7 +3,7 @@
     {
       "id": 1,
       "eventName": "Backwoods Music Festival",
-      "eventDate": "4/20/2023",
+      "eventDate": "2023-04-20",
       "eventVenue": "Mulberry Mountain",
       "eventDescription": "Backwoods at Mulberry Mountain returns again, this time with Spring dates for 4/20 weekend in 2023! Backwoods is a 4 day 4 night camping and music festival located in the beautiful Ozark National Forest, in Ozark, AR. Join us for three stages of music with some of the best national touring acts gracing the stage or wander the Nirvana woodlands and find yourself at one of the many art installations or workshops held daily. Nestled on the top of a 100 acre mountain top, Backwoods hosts up to 25,000 attendees over the course of the weekend and is known for unique experiences and environments such as the full blown Frick Frack Casino, The Globe Theater & Speakeasy, Space Station and more.",
       "ticketLink": "https://backwoodsmusicfestival.com/ticket-information?fbclid=IwAR0WuGviHpT8vVtkxRZlguTKsaS_GmkBDfB7YnLYION17w0zPCT-6tMofcE",
@@ -12,7 +12,7 @@
     {
       "id": 2,
       "eventName": "Wiz & Joey",
-      "eventDate": "4/22/2023",
+      "eventDate": "2023-04-22",
       "eventVenue": "Red Rocks Park and Amphitheater",
       "eventDescription": "WIZ KHALIFA & JOEY BADA$$ SAT, APR 22, 2022 at 6:45PM Doors: 5:30PM All Ages",
       "ticketLink": "https://www.axs.com/events/459555/wiz-khalifa-joey-bada-tickets",
@@ -21,11 +21,20 @@
     {
       "id": 3,
       "eventName": "Astral Bliss Pre-Party",
-      "eventDate": "5/12/2023",
+      "eventDate": "2023-05-12",
       "eventVenue": "Aggie Theatre",
       "eventDescription": "The unmistakable sound of Au5 – futuristic sound design  infused with melodic soundscapes. Au5 transports you to a utopian world that’s as vibrant as it is monumental.Unbounded by genre, Au5 consistently pushes the boundaries of possibility within electronic music. From the stargazers to the neck-breakers, Au5‘s music has something we can all immerse ourselves in. Born and raised in New Jersey, Au5 (Austin Collins) has been a lifelong musician. Trained in classical piano since age 4 and studying bass guitar and music production since age 13, Austin is a well-rounded composer and music technologist. He has toured with Infected Mushroom, Liquid Stranger, Seven Lions, has been releasing music for over 9 years, with over 100 songs released. “If you’re looking for trendy music, turn away. If you’re looking to embark on a journey, come with me.",
       "ticketLink": "https://www.axs.com/events/472551/au5-tickets?skin=aggietheatre&fbclid=IwAR3cfLa1KHaw3DjmzL_3vt3Edb9OCRdmK_oi2Yu2vThbH00eXO9IcYaPliw",
       "posterBanner": "https://scontent-den4-1.xx.fbcdn.net/v/t39.30808-6/331951934_644022880619183_3632240059372857360_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=340051&_nc_ohc=4VW6vTDWWYYAX_xLf5y&_nc_ht=scontent-den4-1.xx&oh=00_AfDHK2rbnnu7PENQ5iPSgh_JyZIZX09BkO0g2zPB8MfwOA&oe=6419C44A"
+    },
+    {
+      "eventName": "sort test",
+      "eventVenue": "test",
+      "eventDate": "2023-03-25",
+      "eventdescription": "test",
+      "ticketLink": "test",
+      "posterBanner": "test",
+      "id": 4
     }
   ]
 }

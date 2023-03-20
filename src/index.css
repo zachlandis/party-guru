@@ -75,6 +75,7 @@
 #calendar-divs {
   margin: auto;
   border: 1px solid grey;
+  color: white;
   width: 95vw;
   height: 12vh;
 }

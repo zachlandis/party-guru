@@ -3,9 +3,11 @@ import { Link } from "react-router-dom"
 
 function CalendarEvent({ concerts }) {
 
+    const sortedConcerts = concerts.sort(concerts.eventDate)
+
     return (
         <div id="event-list-div">
-            {concerts.map((eachEvent) => (
+            {sortedConcerts.map((eachEvent) => (
             <div id="calendar-divs">
                 <h3 id="calendar-text">{eachEvent.eventName}</h3>
                 <h5 id="calendar-text">{eachEvent.eventVenue}</h5>
