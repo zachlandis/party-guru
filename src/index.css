@@ -116,6 +116,22 @@
   color: white;
 }
 
+#search-bar{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: auto;
+  width: 95vw;
+  height: 10vh;
+  border: 1px solid grey;
+  background-image: radial-gradient(darkslategrey, black);
+  color: white;
+}
+
+#search-bar-content{
+  align-content: center;
+}
+
 
 
 @media (prefers-reduced-motion: no-preference) {
