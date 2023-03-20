@@ -21,19 +21,19 @@ function Events() {
         setEvents([...events, addedEvent])
     } 
 
-    // const filteredEvents = events.filter((oneEvent) => {
-    //     if (search === "") {
-    //         return events;
-    //     } else if (oneEvent.eventName.toLowerCase().includes(search.toLowerCase())) {
-    //         return oneEvent;
-    //     }
-    // })
+    const filteredEvents = events.filter((oneEvent) => {
+        if (search === "") {
+            return events;
+        } else if (oneEvent.eventName.toLowerCase().includes(search.toLowerCase())) {
+            return oneEvent;
+        }
+    })
 
     return (
         <div>
             <Header search={search} setSearch={setSearch} showForm={showForm} setShowForm={setShowForm} onAddEvent={addEvent} />
             <br/>
-            <EventList concerts={events}/>
+            <EventList concerts={filteredEvents}/>
         </div>
     )
 }

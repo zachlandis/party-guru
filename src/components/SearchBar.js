@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
+import EventForm from "./EventForm";
 import '../index.css';
 
 function SearchBar({search, setSearch, showForm, setShowForm}) {
