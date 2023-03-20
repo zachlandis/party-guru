@@ -5,6 +5,9 @@ import NavBar from './NavBar';
 import Home from './Home';
 import About from './About';
 import Events from './Events';
+import EventPage from './EventPage';
+
+
 
 
 function App() {
@@ -17,6 +20,8 @@ function App() {
         <Route path="/about" element={<About/>}>
         </Route>
         <Route exact path="/events" element={<Events/>}>
+        </Route>
+        <Route exact path="/events/:id" element={<EventPage/>}>
         </Route>
         <Route exact path="/" element={<Home/>}>
         </Route>
