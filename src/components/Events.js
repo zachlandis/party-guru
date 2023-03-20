@@ -8,7 +8,7 @@ function Events() {
     const [search, setSearch] = useState("")
     const [showForm, setShowForm] = useState(false)
 
-    const api = "http://localhost:3001/events"
+    const api = "http://localhost:3000/events"
 
     useEffect(() => {
         fetch(api)
