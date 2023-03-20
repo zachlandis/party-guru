@@ -1,13 +1,11 @@
 import React from 'react';
-import {Routes, Route} from "react-dom-router"
+import {Routes, Route} from "react-router-dom"
+
+import NavBar from './NavBar';
 import Home from './Home';
 import About from './About';
 import Events from './Events';
 
-
-
-import logo from './logo.svg';
-import './App.css';
 
 function App() {
   return (
