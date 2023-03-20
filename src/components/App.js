@@ -1,15 +1,12 @@
-import React, { useState } from 'react';
-import {Routes, Route} from "react-router-dom"
 
+import React, { useState } from 'react';
+import { Routes, Route } from "react-router-dom";
 import NavBar from './NavBar';
 import Home from './Home';
-import About from './About';
 import Events from './Events';
 import EventPage from './EventPage';
+import About from './About';
 import Footer from './Footer';
-
-
-
 
 function App() {
   const [page, setPage] = useState("/")
@@ -29,6 +26,8 @@ function App() {
         <Route path="*" element={<h1>404 not found</h1>}>
         </Route>
       </Routes>
+      <br/>
+      <Footer />
     </div>
   );
 }
