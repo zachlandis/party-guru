@@ -24,11 +24,16 @@ function EventPage() {
                 <h2>{eventVenue}</h2>
                 <h3>{eventDate}</h3>
                 <img className="event-poster" src={posterBanner} alt="poster" />
+                <p id="event-description" >{eventDescription}</p>
             </div>
             <br/>
-            <p id="event-description" >{eventDescription}</p>
-            <br/>
             <a  id="ticket-link" href={ticketLink}>Buy Tickets</a>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
         </div>
 
     )
