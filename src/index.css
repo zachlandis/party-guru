@@ -132,6 +132,14 @@
   align-content: center;
 }
 
+#event-form{
+  background-color: black;
+  color: white;
+  margin: auto;
+  width: 95vw;
+}
+
+
 
 
 @media (prefers-reduced-motion: no-preference) {
