@@ -10,10 +10,9 @@ function Home() {
     return (
         <div id="pgp_logo" >
             <img src={pgp_logo} alt="pgp logo" />
-            <h6 id="white-text">Partying is the business, and business is good!</h6>
+            <h3 id="white-text">Partying is the business, and business is good!</h3>
             <br/>
             <img src={party_sloth} alt="party sloth" id="party_sloth" />
-
         </div>
     )
 }

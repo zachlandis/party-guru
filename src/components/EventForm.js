@@ -27,6 +27,13 @@ function EventForm({onAddEvent}) {
         })
             .then(r => r.json())
             .then(data => onAddEvent(data))
+            setEventName("")
+            setEventVenue("")
+            setEventDate("")
+            setEventDescription("")
+            setPosterBanner("")
+            setTicketLink("")
+
     }
 
 
